@@ -12,7 +12,7 @@ import { Document } from './documents/document.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'mydb.abc123.us-east-1.rds.amazonaws.com',
+      host: 'mydb.cluster-cj4660e4wc1r.eu-north-1.rds.amazonaws.com',
       port: 5432,
       username: 'postgres',
       password: 'postgres',
